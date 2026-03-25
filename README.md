@@ -1,11 +1,25 @@
-<div align="center">
+# Matthew Pierce Portfolio
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A personal portfolio website built with Vue 3 and Tailwind CSS.
 
-  <h1>Built with AI Studio</h2>
+## Features
+- Single-page navigation
+- Mobile-friendly and responsive design
+- Clean, minimalist aesthetic inspired by modern portfolios
+- Sections for Experience, Projects, Skills, and Contact
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+## Tech Stack
+- **Framework**: Vue 3 (Composition API)
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide Vue Next
+- **Build Tool**: Vite
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Project Structure
+- `src/components/`: Reusable UI components for each section
+- `src/App.vue`: Main application shell and layout
+- `public/`: Static assets (headshot, etc.)
 
-</div>
+## Getting Started
+1. Install dependencies: `npm install`
+2. Run development server: `npm run dev`
+3. Build for production: `npm run build`
